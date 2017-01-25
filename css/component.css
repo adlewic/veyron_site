@@ -1,22 +1,27 @@
 .grid {
 	width: 100%;
-	padding: 0px 0px 100px 20px;
+	height: 100%;
+	padding: 0px 0px 100px 0px;
 	max-width: 1280px;
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
-	background-color: pink;
+	/*background-color: pink;*/
+	position: relative;
 }
 
+
+
 .grid li {
-	/*display: inline-block;*/
+	display: inline-block;
 	float: left;
 	width: 33.3%;
 	margin: 0;
 /*	padding: 20px;*/
 	text-align: left;
 	position: relative;
-	background-color: green;
+	background-color: grey;
+
 }
 
 .grid figure {
@@ -28,6 +33,7 @@
 	max-width: 100%;
 	display: block;
 	position: relative;
+	/*border: 1px solid purple;*/
 }
 
 .grid figcaption {
@@ -87,10 +93,10 @@
 	top: auto;
 	bottom: 0;
 	opacity: 1;
-	-webkit-transform: translateY(20%);
-	-moz-transform: translateY(20%);
-	-ms-transform: translateY(20%);
-	transform: translateY(20%);
+	-webkit-transform: translateY(50%);
+	-moz-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	transform: translateY(50%);
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
 	transition: transform 0.4s, opacity 0.1s 0.3s;
@@ -99,10 +105,10 @@
 .no-touch .cs-style-3 figure:hover figcaption,
 .cs-style-3 figure.cs-hover figcaption {
 	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-ms-transform: translateY(0px);
-	transform: translateY(0px);
+	-webkit-transform: translateY(30px);
+	-moz-transform: translateY(30px);
+	-ms-transform: translateY(30px);
+	transform: translateY(30px);
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
