@@ -40,6 +40,7 @@ h3{
   color: #666;
   font-weight:400;
   font-size: 20px;
+  font-weight: 300;
   margin: 0px;
   padding: 25px 5%;
 }
@@ -95,11 +96,11 @@ nav{
   background-color: white;
   width: 100%;
 	height: 90px;
-  max-width: 1280px;
+  max-width: 1360px;
   margin: 0 auto;
 	border-bottom: 1px solid #ccc;
   z-index: 1;
-  font-size: 11pt;
+  /*font-size: 11pt;*/
 }
 
 nav div{
@@ -107,7 +108,7 @@ nav div{
 }
 
 nav div #logo{
-	width: 150px;
+	width: 130px;
 	margin: 30px 0 0 70px;
 	float: left;
 }
@@ -128,25 +129,23 @@ a{
 	text-decoration: none;
 }
 
-a:hover{
-	font-weight: 400;
-}
+
 
 
 #title{
   width: 100%;
-  max-width: 1280px;
+  max-width: 1360px;
   margin: 0 auto;
   background-color: white;
   height: 100px;
 }
 
 #banner{
-  max-width: 1280px;
+  max-width: 1360px;
   width: 100%;
   height: 400px;
   margin: 0 auto;
-  background-image: url("../images/banners/banner00.jpg");
+  background-image: url("../images/banners/b1.jpg");
   position: relative;
 
 }
@@ -165,12 +164,57 @@ header #banner_title{
   width: 100%;
   position: relative;
   overflow: auto;
-  background-color: purple;
+  background-color: white;
+  max-width: 1360px;
+  margin: 0 auto;
 }
+
+
+input[type="submit"],
+input[type="text"],
+textarea{
+  width: 100%;
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  box-shadow: none;
+  box-sizing: border-box; 
+  margin: 10px 10px;
+}
+
+input[type="text"]:focus{
+  border-color: #79618e;
+}
+
+ 
+textarea{
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+          min-height: 65px;
+          padding-top: 6px;
+          padding-bottom: 6px; 
+}
+
+
+input[type="submit"]{
+     background-color: #79618e;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+input[type="submit"]:hover{
+  opacity: 0.5;
+}
+
+
+
 
 footer{
   width: 100%;
-  max-width: 1280px;
+  max-width: 1360px;
   margin: 0 auto;
   font-weight: 300;
   padding-top: 50px;
@@ -181,8 +225,6 @@ footer{
 }
 
 
-
-
 footer div {
 float: left;
 }
@@ -191,6 +233,43 @@ footer li{
   display: inline-block;
 
 }
+
+
+
+section{
+  float: left;
+}
+
+
+#p_contact{
+  width: 50%;
+  font-size: 14pt;
+margin: 80px 80px ;
+}
+
+
+
+iframe{
+float: left;
+margin: 50px  0px;
+}
+
+#title_contact{
+  font-size: 12pt;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 20px;
+  margin: 20px 0px;
+}
+
+#adress{
+  background-color: white;
+}
+
+#form{
+  background-color: white;
+}
+
+
 
 .base{
   margin-top: 50px;
