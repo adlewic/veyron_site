@@ -219,6 +219,7 @@ color: #79618e;
 }
 
 #ifs_p{
+  font-size: 13pt;
   padding: 40px 50px 0px 0px;
 }
 
@@ -233,6 +234,36 @@ color: #79618e;
   margin: 0px 0px 20px 0px;
 }
 
+.top{
+  padding: 20px 20px;
+  font-size: 13pt;
+  border: 1px solid #ccc;
+  height: 150px;
+
+}
+
+
+#table_customer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*border-top: .5px solid #ccc;*/
+  width: 100%;
+}
+
+#table_customer li{
+  width: 340px;
+  /*border: 1px solid #ccc;*/
+  height: 200px;
+  text-align: center;
+  background-color: #eee;
+  display: inline-block;
+}
+
+.customer{
+  width: 350px;
+  margin-top: 40px;
+}
 
 
 .ifs_icon{
