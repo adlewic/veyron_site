@@ -224,17 +224,23 @@ color: #79618e;
 
 
 #ifs_menu{
-  background-color: #ccc;
+  margin-left: 5px;
 }
 
 
 #part1{
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   margin: 0px 0px 20px 0px;
 }
 
 
 
+.ifs_icon{
+  width: 200px;
+  text-align: center;
+  /*border: 1px solid #ccc;*/
+  margin: 0 auto;
+}
 
 #ifs_menu ul {
   margin: 0px;
@@ -244,21 +250,64 @@ color: #79618e;
 }
 
 #ifs_menu li{
-  width: 25%;
-  height: 250px;
+  width: 24.8%;
+  height: 300px;
   background-color: #eee;
   text-transform: uppercase;
   float: left;
-   text-align: center;
+  text-align: center;
+  border-right: 2px solid #fff;
+  font-size: 11pt;
 }
 
 
-.individual{
-  border: 1px solid #ccc;
+.square{
+  border: 1px solid;
   width: 100px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1px;
+  padding: 15px 5px;
+  color: #fff;
 }
 
 
+
+/*IFS Table*/
+
+#table {
+  margin: 200px 0px 100px 6%;
+}
+#table li {
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+  vertical-align: bottom;
+}
+
+#table ul{
+  vertical-align: bottom;
+}
+
+hr{
+  width: 88%;
+  margin: 0px 40px;
+}
+
+/*COLORS */
+.y{background-color: #feaa00;}
+.m{background-color:#c70075;}
+.b{background-color: #0191ca;}
+.g {background-color:#2ca23d;}
+.gl{background-color:#8ac84a;}
+.o {background-color:#f67107;}
+.ol{background-color: #cec006;}
+.navy{background-color: #006e9c;}
+.red{background-color: #f34026;}
+.grey{background-color: #444;
+      height: 50px;}
+
+
+/*FOOTER */
 
 footer{
   width: 100%;
@@ -326,12 +375,17 @@ margin: 50px  0px;
 
 
 
+#tab_menu ul{
+  margin: 0;
+  padding: 0;
+}
+
 #tab_menu ul li {
-width: 300px;
-height: 100px;
-list-style-type: none;
-border: 1px solid #ccc;
-padding: 10px
+  width: 300px;
+  height: 100px;
+  list-style-type: none;
+  border: 1px solid #ccc;
+  padding: 10px
 }
 
 
@@ -346,7 +400,6 @@ padding: 10px
 
 .tab_title{
   height: 100%;
-  /*background-color: #ddd;*/
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -355,13 +408,6 @@ padding: 10px
 .tab_title div{
 padding-top: 12%;
 }
-
-
-/*.grey{
-  background-color: #79618e;
-   -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
-    filter: grayscale(100%);
-}*/
 
 .block{
   width: 33.3%;
